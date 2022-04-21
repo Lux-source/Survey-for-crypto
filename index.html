@@ -1,0 +1,194 @@
+<div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">Lucian's Cryptocurrency Survey
+      </h1>
+      <p id="description" class="description-text-center">Thank you for taking the time in answering me what crypto interest you have
+      </p>
+      <header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label 
+                   id="name-label" 
+                   for="name">Name 
+            </label>
+            <input
+                   type="text"
+                   name="name"
+                   id="name"
+                   class="form-control"
+                   placeholder="Enter your name"
+                   required
+                   />
+          </div>
+          <div class="from-group">
+            <label id="email-label"
+                   for="email">Email</label>
+            <input
+                   type="email"
+                   name="email"
+                   id="email"
+                   class="form-control"
+                   placeholder="Enter your email"
+                   required
+                   />
+          </div>
+            <div class="form-group">
+              <label 
+                     id="number-label" 
+                     for="number">Age<span class="clue">(optional)</span>
+              </label>
+              <input
+                     type="number"
+                     name="age"
+                     id="number"
+                     min="1"
+                     max="120"
+                     class="form-control"
+                     placeholder="Age"
+                     />
+          </div>
+          <div class="form-group">
+            <p>Which option best describe your current role?
+            </p>
+            <select 
+                    id="dropdown" 
+                    name="role" 
+                    class="form-control" 
+                    required>
+              <option disabled selected value>Select current role
+              </option>
+              <option value="student">Student
+              </option>
+              <option value="job">Full Time Job 
+              </option>
+              <!-- Aquí no se si añadir más opciones y poner: Jubilado. emprendedor, funcionario...-->
+              <option value="leaner">Full Time Learner
+              </option>
+              <option value="preferno">Prefer Not To Say   
+              </option>
+              <option value="other">Other 
+              </option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <p>Do you own any cryptocurrency?            
+            </p>
+            <label>
+              <input
+                     name="user-own"
+                     value="yes"
+                     type="radio"
+                     class="input-radio"
+                     checked
+                     />Yes
+            </label>
+            <label>
+              <input
+                     name="user-own"
+                     value="no"
+                     type="radio"
+                     class="input-radio"
+                     />No
+            </label>
+            <label>
+              <input
+                     name="user-own"
+                     value="what-is-a-cryptocurrency"
+                     type="radio"
+                     class="input-radio"
+                     />What is a cryptocurrency?
+            </label>
+            </div>
+          
+          <div class="form-group">
+            <p>Why did you got interested in cryptocurrency?    
+            </p>
+            
+            <!-- A ver que ponemos aquí de opciones básicas por las que alguien se interesa en las cryptos-->
+            
+            <select 
+                    id="most-like"
+                    name="most-like"
+                    class="form-control"
+                    required>
+              <option disabled selected value>Select an option
+              </option>
+              <option
+                      value="finance">Finance              
+              </option>
+              <option
+                      value="projects">Projects
+              </option>
+              <option
+                      value="community">Community              
+              </option>
+              <option
+                      value="get-rich-quick">To Get Rich Quick       
+              </option>              
+              </select>          
+          </div>
+          
+          <div class="form-group">
+            <p>What do you think it needs to be improved in order to make cryptocurrency mainstream?                      
+            <span class="clue">(Check all that aplly)            
+            </span>            
+            </p>
+            
+            <label>
+              <input
+                     name="prefer"
+                     value="meme-coins"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />MEME Coins            
+            </label>
+            <label>
+              <input
+                    name="prefer"
+                    value="financial-institutions"
+                    type="checkbox"
+                    class="input-checkbox"
+                    />Institutional Investment
+            </label>
+            <label>
+              <input
+                     name="prefer"
+                     value="market-regulation"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Market Regulators (like in stocks, bonds, forex)
+              </label>
+            <label>
+              <input
+                     name="prefer"
+                     value="courses"
+                     type="checkbox"
+                     class="input-checkbox"
+                     />Educational Courses
+            </label>
+          </div>
+          
+          <div class="form-group">
+            <p>Any comments or sugestions? Don`t be shy and bring your opinion to the table!
+            </p>
+              <textarea
+                        id="comments"
+                        class="input-textarea"
+                        name="comment"
+                        placeholder="Enter your comment here..."
+                        ></textarea>
+          </div>
+          
+          <div class="form-group">
+            <button type="submit"
+                    id="submit"
+                    class="submit-button">Submit
+            </button>
+          </div>
+            
+          </form>
+            
+          </header>
+            
+          </div>
